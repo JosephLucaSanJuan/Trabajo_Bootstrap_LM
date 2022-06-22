@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/tyrannosaurus-dinosaur-triceratops-skull-pixel-art-dinosaur.jpg" type="image/x-icon">
+    <title>THE MORRISON FORMATION</title>
+</head>
+<body class="bg-primary text-lime"><!--bg-purple-->
+    <div id="wrapper">
+        <!-- nav responsive de bootstrap 5 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-vanilla position-sticky top-0 opacity-75 zindex-sticky">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img id="logo" src="./images/Bootstrap_logo.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#introduction">Introduction</a>
+                  </li><!--
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>-->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Galley</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bonus">Bonus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bibliography">Acknowledgements</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- fin del nav responsive de bootstrap 5 -->
+        <section id="hero">
+          <h1 class="text-center fs-1"><ins>The Morrison Formation</ins></h1>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/Brushy_Basin_Mbr,_Morrison_Fm.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/Dry_season_at_the_Mygatt-Moore_Quarry.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/camarasaurus_and_morrison_fauna_by_paleoguy_d8cit52-fullview.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section id="introduction">
+          <div class="container p-2 border-primary">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 bg-success p-5">
+                <h1 class="fs-2"><ins>Introduction</ins></h1>
+                <p>The Morrison Formation is one of the largest and and richest sources of dinosaur fossils in North America.</p>
+                <p>It spreads across the states of South Dakota, Wyoming, Utah, Oklahoma, Texas, New Mexico Colorado, etc. and dates back to the Late Jurassic Period, from 156 till 146 million years ago.</p>
+                <p>Some of the most famous dinosaurs of all time have been found here, incluiding Stegosaurus, Allosaurus and Diplodocus. Other fossil sites with similar fauna include the Lourinha Formation in Portugal and the Tendaguru formation in Tanzania</p>
+              </div>
+              <div class="col-xs-12 col-md-6 bg-info p-5">
+                <!--<img src="https://i.picsum.photos/id/385/400/400.jpg?hmac=_2nE6PnjR5oEywE-LS5VhIMzqKxUGO_6IPnvIOfBiu4" alt="" class="w-100">-->
+                <img src="./images/Cleveland_Lloyd_Dinosaur_Quarry.jpg" alt="" class="w-100">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="bonus" class="p-2 border-primary">
+          <div class="container text-purple bg-purple">
+            <h1 class="text-center fs-2 text-lime"><ins>Sites and Quarries</ins></h1>
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                <!--primera card-->
+                <div class="card" style="width: 18rem;">
+                  <!--<img src="https://i.picsum.photos/id/385/400/400.jpg?hmac=_2nE6PnjR5oEywE-LS5VhIMzqKxUGO_6IPnvIOfBiu4" class="card-img-top" alt="...">-->
+                  <img src="./images/330px-Cope_Quarry_Garden_Park_Colorado.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Garden Park Colorado</h5>
+                    <p class="card-text">Located in Colorado</p>
+                    <a data-bs-toggle="modal" data-bs-target="#leerMas1" class="btn btn-primary">Learn More</a>
+                    <!--Modal-->
+                    <div class="modal fade" id="leerMas1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Garden Park Colorado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>One of the most important locations regarding the study of Late Jurassic dinosaurs.</p>
+                            <p>The park is located near the town of Colorado City, and scientist have been digging there since 1877.</p>
+                            <p>Among the dinosaurs found there include the first complete <i>Allosaurus</i> skeleton as well as the fist known remains of <i>Ceratosaurus</i>, <i>Camarasaurus</i> and <i>Diplodocus</i></p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- fin del modal1 -->
+                  </div>
+                </div>
+                <!--fin de primera card-->
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                <!--segunda card-->
+                <div class="card" style="width: 18rem;">
+                  <!--<img src="https://i.picsum.photos/id/256/400/400.jpg?hmac=yfCvUBf7QBmxNqpI-vfGAwlDmnlw0-TzpeYhNCvZnow" class="card-img-top" alt="...">-->
+                  <img src="./images/Dry_Mesa_Quarry.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Dry Mesa Quarry</h5>
+                    <p class="card-text">Located in Colorado</p>
+                    <!--trigger del 1º modal-->
+                    <a data-bs-toggle="modal" data-bs-target="#leerMas2" class="btn btn-primary">Learn More</a>
+                    <!--texto del modal leerMas2-->
+                    <!-- Modal -->
+                    <div class="modal fade" id="leerMas2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Dry Mesa Quarry</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>The site was first described as a fossil site when the bone of the theropod <i>Torvosaurus tanneri</i> were found, thus leading to more quarying operations taking place from 1972 till 1976, during which a documentary called <b>The Great Dinosaur Discovery</b> was filmed showcasing the discoveries made there.</p>
+                            <p>Around 4000 bone have been collected, among them 23 genera o dinosaurs, incluiding <i>Ceratosaurus</i>, <i>Dryosaurus</i>, <i>Allosaurus</i>; and, the mosnt celebrated find, <i>Supersaurus</i>, one of the longest dinosaur ever found</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--fin de leerMas2-->
+                  </div>
+                </div>
+                <!--fin de segunda card-->
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                <!--tercera card-->
+                <div class="card" style="width: 18rem;">
+                  <!--<img src="https://i.picsum.photos/id/828/400/400.jpg?hmac=7P5ugRqxoL4BmASjmziGl8b9O_ZfKBUVFbZutpg7n9I" class="card-img-top" alt="...">-->
+                  <img src="./images/dinosour-quarry-in-utah.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Cleveland Lloyd Dinosaur Quarry</h5>
+                    <p class="card-text">Located in Utah</p>
+                    <!--disparador de LeerMas2----->
+                    <a data-bs-toggle="modal" data-bs-target="#leerMas3" class="btn btn-primary">Learn More</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="leerMas3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Cleveland Lloyd Dinosaur Quarry</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Located at Jurassic National Monumetn in Utah, it is one of the densest concentrations of Jurassic dinosaur bones ever found, with over 74 individuals dinos found.</p>
+                            <p>Most of the bones belong to carnivores, specifically 44 of the dinosaurs found being <i>Allosaurus</i>, which has lead scientist to devise many hypothesis on how they died.</p>
+                            <p>So far the most common theories are that the dinosaurs became stuck in mud while trying to drink from a lake, which attracted predators that also became trapped; or several dinosaurs being brought to a lakebed due to a massive drought, and with all the carnivores in one spot, the hervibores began to leave, which led to the <i>Allosaurus</i> turning on and canibalising each other.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--fin del modal 3-->
+                  </div>
+                </div>
+                <!--fin de tercera card-->
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                <!--cuarta card-->
+                <div class="card" style="width: 18rem;">
+                  <!--<img src="https://i.picsum.photos/id/507/400/400.jpg?hmac=Beg4NwezRCWyF8Pny4KnfFFFaJEoqHvzZVuYyv8-kts" class="card-img-top" alt="...">-->
+                  <img src="./images/como-bluff-11aa5614-9420-42f6-99dc-0ba0a32e235-resize-750.jpeg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Como Bluff</h5>
+                    <p class="card-text">Located in Wyoming</p>
+                    <a data-bs-toggle="modal" data-bs-target="#leerMas4" class="btn btn-primary">Learn More</a>
+                    <!--<a data-bs-toggle="popover" title="leerMas4" data-bs-content="And here's some amazing content. It's very engaging. Right?" class="btn btn-primary">Learn More</a>-->
+                    <!--Modal 4-->
+                    <div class="modal fade" id="leerMas4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Como Bluff</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>A  large ridge located between the towns of Rock River and Medicine Row, Wyoming; <b>Como Bluff</b> is one of  major sites of early discovery of dinosaur remains, with many species of dinosaur and othe prehistoric lifhaving been discovered there; incluiding the only known specimen of the theropod Coelurus</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--fin del modal-->
+                  </div>
+                </div>
+                <!--fin de cuarta card-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="gallery" class="p-2 border-primary fs-3">
+          <h1 class="text-center fs-2 bg-success"><ins>Some dinosaurs of the Morrison Formation</ins></h1>
+          <div class="container bg-success">
+            <div class="row align-items-center">
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/They_call_me_Al_by_DinosaurDJ.jpg" class="w-100" alt="">
+                <p>Allosaurus</p>
+              </div>
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/ti__ceratosaurus_nadairead_avatar_by_nadairead.jpg" class="w-100" alt="">
+                <p>Ceratosaurus</p>
+              </div>
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/torvosaurus_colour_test_by_allotyrannosaurus_d9qfb4o-fullview.jpg" class="w-100" alt="">
+                <p>Torvosaurus</p>
+              </div>
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/allosaurus_colour_testing_by_allotyrannosaurus_d9iqc1y-fullview.jpg" class="w-100" alt="">
+                <p>Saurophaganax</p>
+              </div>
+            </div>
+          </div>
+          <div class="container bg-success">
+            <div class="row align-items-center">
+              <div class="rounded col-xs-12 col-md-3 col-lg-3 ">
+                <img src="./images/stegosaurus_armatus_by_kaek_d9dnj1o-fullview.jpg" class="w-100" alt="">
+                <p>Stegosaurus</p>
+              </div>
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/camptosaurus_by_y_forest_dd82w50-fullview.jpg" class="w-100" alt="">
+                <p>Camptosaurus</p>
+              </div>
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/gargoyleosaurus_by_deskridge_ddja0q4-fullview.jpg" class="w-100" alt="">
+                <p>Gargoyleosaurus</p>
+              </div>
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/anurognathus_ammoni_by_prehistorybyliam_ddlfp3h-fullview.jpg" class="w-100 width: " alt="">
+                <p>Anurognathus</p>
+              </div>
+            </div>
+          </div>
+          <div class="container bg-success">
+            <div class="row align-items-center">
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/barosaurus_lentus_by_gabuded_dev1j9u-fullview.jpg" class="w-100" alt="">
+                <p>Barosaurus</p>
+              </div>
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/camarasaurus_and_morrison_fauna_by_paleoguy_d8cit52-fullview.jpg" class="w-100" alt="">
+                <p>Camarasaurus</p>
+              </div>
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/supersaurus_the_super_plant_by_artapon_dblwvr0-fullview.jpg" class="w-100" alt="">
+                <p>Supersaurus</p>
+              </div>
+              <div class="rounded col-xs-12 col-md-3 col-lg-3">
+                <img src="./images/Brachiosaurus_DB.jpg" class="w-100" alt="">
+                <p>Brachiosaurus</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="bibliography" class="border-primary p-3">
+          <div class="container bg-purple">
+            <h1 class="text-center fs-3"><ins>Bibliography</ins></h1>
+              <ol>
+                <li><ins>http://www.handsontheland.org/garden-park/</ins></li>
+                <li><ins>https://en.wikipedia.org/wiki/Morrison_Formation</ins></li>
+                <li><ins>https://www.colorado.com/articles/where-see-dinosaurs-colorado</ins></li>
+                <li><ins>http://sites.rootsweb.com/~wytttp/bonewars.htm</ins></li>
+                <li><ins>https://www.blm.gov/national-conservation-lands/utah/jurassic-national-monument</ins></li>
+                <li><ins>https://en.wikipedia.org/wiki/Dry_Mesa_Quarry</ins></li>
+                <li><ins>http://sites.rootsweb.com/~wytttp/bonewars.htm</ins></li>
+              </ol>
+          </div>
+          
+        </section>
+        <footer></footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./scripts/misscripts.js"></script>
+</body>
+</html>
